@@ -1,0 +1,64 @@
+nav {
+  background-color: #0F0D0E;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Montserrat';
+  color: #FFF;
+  font-size: 40px;
+}
+button{
+  display: none;
+  border: none;
+  background-color: #0F0D0E;
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+.dropdown_content a {
+  color:#FFF;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.dropdown_content{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@media screen and (max-width:500px) {
+button{
+  display: block;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_content a{
+  padding-top: 10px;
+  display: block;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  color: #FFF;
+}
+.dropdown_content{
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+
+.dropdown:hover .dropdown_content{
+  display: block;
+}
+  
+}
