@@ -1,3 +1,18 @@
+:root{
+    --background:#141213;
+    --background-darker:#0F0D0E;
+    --boder:#FCBA28;
+    --font-color:#FFF;
+}
+
+*{
+    font-family: 'Montserrat';
+    background-color: var(--background);
+    margin: 0px;
+    padding: 0px;
+    color:var(--font-color)
+
+}
 main{
     background-color: #141213;
 }

@@ -1,15 +1,18 @@
+
 nav {
   background-color: #0F0D0E;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 100px;
 }
 
 h1{
   font-family: 'Montserrat';
   color: #FFF;
   font-size: 40px;
+  background-color: inherit;
 }
 button{
   display: none;
